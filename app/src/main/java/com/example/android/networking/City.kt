@@ -1,9 +1,11 @@
 package com.example.android.networking
 
 import com.google.gson.annotations.SerializedName
-import java.nio.file.WatchEvent
 
 class City {
+
+    @SerializedName("woeid")
+    val id:Int= 0
     var title: String = " "
     var timezone: String = ""
     var time: String = ""
